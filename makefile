@@ -1,2 +1,2 @@
 Pocket_men_move:
-	g++ dr_fieri.cpp event.cpp head.cpp cave.cpp player.cpp prof_linard.cpp dr_murphy.cpp frank.cpp location.cpp pocket_men.cpp test2.cpp devin.cpp error.cpp get_nets.cpp map.cpp prof_johnson.cpp wild_pocket_men.cpp -o pocket_men_move
+	g++ -g pocket_men_files/dr_fieri.cpp event_files/event.cpp event_files/head.cpp event_files/cave.cpp game_play_files/player.cpp pocket_men_files/prof_linard.cpp pocket_men_files/dr_murphy.cpp pocket_men_files/frank.cpp game_play_files/location.cpp pocket_men_files/pocket_men.cpp pocket_driver.cpp pocket_men_files/devin.cpp error.cpp event_files/get_nets.cpp game_play_files/map.cpp pocket_men_files/prof_johnson.cpp event_files/wild_pocket_men.cpp -o pocket_men_move
