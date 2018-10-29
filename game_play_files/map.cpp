@@ -29,8 +29,10 @@
 using namespace std;
 
 map::map(int sxx, int syy, string m){//63 X 33 arrays are broken...//83 x 44 // add a tunel and another area!! //124 x 45
-  ifstream input;
-	input.open("game_play_files/map.txt");
+  ifstream map;
+  ifstream act;
+	map.open("game_play_files/map.txt");
+  act.open("game_play_files/act.txt");
 	sx = sxx;
 	sy = syy;
 
@@ -44,8 +46,10 @@ map::map(int sxx, int syy, string m){//63 X 33 arrays are broken...//83 x 44 // 
 	   	spots[y] = new loc[sx];
 		for(int x = 0; x < sx; x++){
 		   	char c;
-		   	input.get(c);
-			loc temp(c, x, y);
+        char a;
+        act.get(a);
+		   	map.get(c);
+			loc temp(c, x, y, a);//loc temp(c, x, y);
 			spots[y][x] = temp;
 		}
 	}
@@ -172,19 +176,19 @@ bool map::move(){
 	//system("stty cooked echo");
 	//system("clear");
 	if(arrows == 'w'){
-	   	if(spots[py-1][px].wall()){
+	  if(spots[py-1][px].wall()){
 			py = py - 1;
 		}
 	}else if(arrows == 'a'){
-	   	if(spots[py][px-1].wall()){
+	  if(spots[py][px-1].wall()){
 			px = px - 1;
 		}
 	}else if(arrows == 's'){
-	   	if(spots[py+1][px].wall()){
+	  if(spots[py+1][px].wall()){
 			py = py + 1;
 		}
 	}else if(arrows == 'd'){
-	   	if(spots[py][px+1].wall()){
+	  if(spots[py][px+1].wall()){
 			px = px + 1;
 		}
 	}else if(arrows == 'e'){
