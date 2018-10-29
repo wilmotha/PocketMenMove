@@ -7,9 +7,12 @@
 
 class loc {
 	private:
-	   	string event_name;
-	   	event *e;
+	  string event_name;
+	  event *e;
+
 		char display;
+		char act;
+
 		int x;
 		int y;
 
@@ -17,9 +20,9 @@ class loc {
 	public:
 		//constructor
 		loc();
-		loc(char, int, int);
+		loc(char, int, int, char);
 		//~loc();
-				
+
 		//functions
 		void land(player &);
 		char print_debug();

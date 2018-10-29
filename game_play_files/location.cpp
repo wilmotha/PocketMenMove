@@ -22,12 +22,13 @@ loc::loc(){
 	seen = false;
 }
 
-loc::loc(char d, int i, int j){
+loc::loc(char d, int i, int j, char a){
+	act = a;
 	display = d;
 	x = i;
 	y = j;
-	
-	seen = false;	
+
+	seen = false;
 	int r;
 	if(d == '#'){
 		int r = rand()%4;
@@ -81,7 +82,8 @@ void loc::land(player &p){
 }
 
 bool loc::wall(){
-	if(display == '}' || display == '{' || display == '*' || display == '\\' || display == '|' || display == '/' || display == '_'){
+	if(act == 'b'){
+	//if(display == '}' || display == '{' || display == '*' || display == '\\' || display == '|' || display == '/' || display == '_'){
 		return false;
 	}else{
 		return true;
@@ -94,7 +96,7 @@ char loc::print_debug(){
 	}else{
 		return display;
 	}
-	
+
 }
 
 char loc::print_loc(){
@@ -116,7 +118,7 @@ void loc::operator=(const loc &temp){
 }*/
 
 string loc::get_event_name() const{
-	return event_name;	
+	return event_name;
 }
 
 void loc::set_event_name(const string &en){

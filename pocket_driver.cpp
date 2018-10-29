@@ -157,8 +157,8 @@ void ending(){
 
 int main(int argc, char *argv[]){
 	srand(time(0));
-  string arg;u4e$kv7!v9O*@W2
-  if(argc < 2){
+  string arg;
+	if(argc < 2){
     arg == "f";
   }else{
     arg == argv[1];
