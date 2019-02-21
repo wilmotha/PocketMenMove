@@ -13,6 +13,8 @@ Below are pictures of the game in action - more can be found here [Gameplay](htt
 
 ![](https://github.com/wilmotha/PocketMenMove/blob/master/game_play_photos/walkingAbout.jpg)
 
+![](https://github.com/wilmotha/PocketMenMove/blob/master/game_play_photos/map.jpg)
+
 ![](https://github.com/wilmotha/PocketMenMove/blob/master/game_play_photos/randomEncounter.jpg)
 
 ![](https://github.com/wilmotha/PocketMenMove/blob/master/game_play_photos/toDoList.jpg)
