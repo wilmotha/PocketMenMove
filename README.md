@@ -1,7 +1,7 @@
 # PocketMenMove
 This is a game that is a bit like pokemon but simpler and only using the linux terminal to run the GUI.
 
-Though there are better and more efficent ways to make games but this process taught me a lot about how the linux terminal shows data and how I could store and manimulate data to run a program.
+Though there are better and more efficent ways to make games this process taught me a lot about how the linux terminal shows data, how inputs are read by the OS, and how I could store and manimulate data to run a program.
 
 Below are pictures of the game in action - more can be found here [Gameplay](https://github.com/wilmotha/PocketMenMove/tree/master/PocketMenMove "Gameplay Photos")
 
