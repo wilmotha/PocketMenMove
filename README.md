@@ -3,6 +3,10 @@ This is a game that is a bit like pokemon but simpler and only using the linux t
 
 Though there are better and more efficent ways to make games this process taught me a lot about how the linux terminal shows data, how inputs are read by the OS, and how I could store and manimulate data to run a program.
 
+## Run
+Clone the project and use the make file provided. It only works on linux/unix, and will not work with linux subsystem for windows. MacOS is untested.
+
+## Pictures
 Below are pictures of the game in action - more can be found here [Gameplay](https://github.com/wilmotha/PocketMenMove/tree/master/game_play_photos "Gameplay Photos")
 
 ![](https://github.com/wilmotha/PocketMenMove/blob/master/game_play_photos/introScreen.jpg)
