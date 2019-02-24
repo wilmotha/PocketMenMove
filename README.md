@@ -9,14 +9,18 @@ Clone the project and use the make file provided. It only works on linux/unix, a
 ## Pictures
 Below are pictures of the game in action - more can be found here [Gameplay](https://github.com/wilmotha/PocketMenMove/tree/master/game_play_photos "Gameplay Photos")
 
+### Title Screen
 ![](https://github.com/wilmotha/PocketMenMove/blob/master/game_play_photos/introScreen.jpg)
 
+### Into
 ![](https://github.com/wilmotha/PocketMenMove/blob/master/game_play_photos/midleOfIntro.jpg)
 
+### Gameplay
 ![](https://github.com/wilmotha/PocketMenMove/blob/master/game_play_photos/beginingOfGame.jpg)
 
 ![](https://github.com/wilmotha/PocketMenMove/blob/master/game_play_photos/walkingAbout.jpg)
 
+### Full Map
 ![](https://github.com/wilmotha/PocketMenMove/blob/master/game_play_photos/map.jpg)
 
 ![](https://github.com/wilmotha/PocketMenMove/blob/master/game_play_photos/randomEncounter.jpg)
