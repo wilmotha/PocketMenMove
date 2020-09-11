@@ -8,6 +8,7 @@ using namespace std;
 
 bool event::print_info(player &p){
 	//cout<<"not even anything!"<<endl;
+	return true;
 }
 
 string event::get_type() const{

@@ -147,6 +147,8 @@ int answer(int x){
 			return ans;
 		}
 	}
+
+	return -1;
 }
 
 int answer(int x, char *ans){
@@ -162,6 +164,8 @@ int answer(int x, char *ans){
 			return ians;
 		}
 	}
+
+	return -1;
 }
 
 float answer(float x){
@@ -177,6 +181,8 @@ float answer(float x){
 			return ans;
 		}
 	}
+
+	return -1.0;
 }
 
 string str_answer(string *options, int size, bool wait){
@@ -207,5 +213,7 @@ string str_answer(string *options, int size, bool wait){
 			return clean_ans;
 		}
 	}
+
+	return "\0";
 }
 //#endif
