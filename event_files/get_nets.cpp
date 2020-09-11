@@ -22,6 +22,7 @@ bool get_nets::print_info(player &p){
 	line(1);
 	p.add_nets(nets);
 	line(1);
+	return true;
 }
 
 get_nets::~get_nets(){
